@@ -1,0 +1,13 @@
+# IL3829 Display driver configuration options
+
+config IL3829_DISPLAY
+    bool "Enable IL3829 Display driver"
+    default y
+    select SPI
+    help
+      This driver supports the IL3829 Display driver.
+
+if IL3829_DISPLAY
+  module = IL3829_DISPLAY
+  module-str = il3829_display
+endif
