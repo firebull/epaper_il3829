@@ -3,7 +3,7 @@
  ## Installation
 
  1. Clone this repository
- 2. Connect driver as zephyr expernal module in CMakelists.txt, example:
+ 2. Connect driver as Zephyr external module in CMakelists.txt, example:
     ```cmake
     set(CUSTOM_DRV_DIR $ENV{HOME}/workspace/zephyr)
     set(DRV_DISPLAY ${CUSTOM_DRV_DIR}/drivers/display/epaper_il3829)
